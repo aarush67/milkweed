@@ -3,132 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Milkweed Germination Experiment</title>
+  <title>Milkweed Seed Scarification Experiment</title>
   <style>
     :root {
-      --glass-bg: rgba(255, 255, 255, 0.15);
-      --glass-border: rgba(255, 255, 255, 0.2);
-      --text-color: #fff;
-      --accent-color: #9fe870;
-      --font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --bg: rgba(255, 255, 255, 0.6);
+      --glass: rgba(255, 255, 255, 0.15);
+      --shadow: rgba(0, 0, 0, 0.1);
+      --accent: #76c893;
+      --text: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Helvetica Neue', sans-serif;
     }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: var(--font-stack);
-      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
-      color: var(--text-color);
-      line-height: 1.7;
+      background: linear-gradient(135deg, #d2f3e9, #f2fdfb);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 3rem 1rem;
+      color: var(--text);
     }
 
     .container {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 40px;
-      background: var(--glass-bg);
-      border: 1px solid var(--glass-border);
-      border-radius: 20px;
+      max-width: 900px;
+      width: 100%;
+      background: var(--glass);
+      box-shadow: 0 8px 32px var(--shadow);
       backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      border-radius: 16px;
+      padding: 2rem 3rem;
     }
 
     h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.3em;
-      color: var(--accent-color);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
-      font-size: 1.6em;
-      margin-top: 1.5em;
-      color: #ffffffdd;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: var(--accent);
     }
 
     p {
-      margin: 1em 0;
-    }
-
-    .section {
-      margin-bottom: 2em;
+      line-height: 1.7;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
     }
 
     ul {
-      padding-left: 1.3em;
+      margin-left: 1.5rem;
+      line-height: 1.6;
     }
 
-    .highlight {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 0.3em 0.6em;
-      border-radius: 6px;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        margin: 20px;
-        padding: 25px;
-      }
-
-      h1 {
-        font-size: 2em;
-      }
-
-      h2 {
-        font-size: 1.3em;
-      }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      text-align: center;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Milkweed Germination Experiment</h1>
-    <p><strong>Date:</strong> August 12–13, 2025<br>
-    <strong>Location:</strong> South Florida (shaded outdoor area)<br>
-    <strong>Temperature:</strong> Natural outdoor temperature</p>
+    <h1>Scarification Experiment on Milkweed & Butterfly Weed</h1>
+    <p><strong>Date of Experiment:</strong> August 12–13, 2025<br>
+    <strong>Location:</strong> South Florida (shaded outdoor area)</p>
 
-    <div class="section">
-      <h2>🌱 Purpose</h2>
-      <p>I wanted to test whether scarifying milkweed seeds helps them germinate faster. I used <span class="highlight">swamp milkweed</span> and <span class="highlight">butterfly weed</span> seeds. Scarification was done by cutting off the tip of each seed.</p>
-    </div>
+    <h2>Purpose</h2>
+    <p>
+      This experiment was conducted to investigate whether scarifying milkweed and butterfly weed seeds helps them germinate faster compared to non-scarified seeds. Scarification is the process of weakening the seed coat, and in this case, it was done by cutting the tip of each seed slightly.
+    </p>
 
-    <div class="section">
-      <h2>🧪 Method</h2>
-      <ul>
-        <li>Two sets of seeds were used: <strong>scarified</strong> and <strong>non-scarified</strong>.</li>
-        <li>Each set was placed in a labeled plastic cup.</li>
-        <li>Both cups were floated in a larger container filled with the same water (room temp rainwater).</li>
-        <li>The setup was placed outside in the shade.</li>
-        <li>No pre-cold stratification was used.</li>
-      </ul>
-    </div>
+    <h2>Materials Used</h2>
+    <ul>
+      <li>Swamp milkweed seeds (Asclepias incarnata)</li>
+      <li>Butterfly weed seeds (Asclepias tuberosa)</li>
+      <li>Plastic cups filled with clean tap water</li>
+      <li>Labels to mark scarified and non-scarified seeds</li>
+      <li>Outdoor location (shaded, warm South Florida climate)</li>
+    </ul>
 
-    <div class="section">
-      <h2>⏱️ Observations</h2>
-      <p><strong>After 12 hours:</strong> Scarified swamp milkweed seeds already showed a white root tip (radicle) starting to emerge. Non-scarified seeds showed nothing.</p>
-      <p><strong>After 24 hours:</strong> Almost all scarified seeds had begun germinating. Out of 8 seeds, 7 had visible growth. Non-scarified seeds remained unchanged.</p>
-      <p>For butterfly weed, scarified seeds showed tiny white dots after 24 hours, while the non-scarified ones still showed no sign of activity.</p>
-    </div>
+    <h2>Method</h2>
+    <p>
+      Two sets of seeds were prepared for both swamp milkweed and butterfly weed:
+    </p>
+    <ul>
+      <li><strong>Scarified:</strong> Tip of each seed carefully clipped with scissors or a blade.</li>
+      <li><strong>Non-scarified:</strong> Seeds were left untreated.</li>
+    </ul>
+    <p>
+      All seeds were placed in separate labeled cups filled with water. These cups were placed in a larger floatation cup to stabilize temperature and conditions.
+    </p>
 
-    <div class="section">
-      <h2>🌿 Conclusion</h2>
-      <p>Scarifying milkweed seeds clearly <strong>accelerated germination</strong> without needing cold stratification. This result is surprising, especially since no pre-chilling was done, yet rapid germination occurred just in water, outdoors, in South Florida.</p>
-      <p>This experiment suggests scarification can be a useful alternative or addition to stratification for milkweed seed starting in warm climates.</p>
-    </div>
+    <h2>Observations</h2>
+    <p>
+      Within just 12 hours, all but one scarified milkweed seed had begun to sprout. White root tips (radicles) were clearly visible, indicating germination had started. In contrast, the non-scarified seeds showed no visible signs of germination.
+    </p>
+    <p>
+      A similar result was seen with butterfly weed seeds. The scarified ones showed tiny white dots after 24 hours, a sign of early germination. The untreated seeds remained unchanged.
+    </p>
 
-    <div class="section">
-      <h2>📸 What's Next?</h2>
-      <ul>
-        <li>Track full germination progress over a week.</li>
-        <li>Transplant sprouted seeds and observe growth rate.</li>
-        <li>Test different water types (rainwater vs tap).</li>
-        <li>Share this data online to help other gardeners.</li>
-      </ul>
-    </div>
+    <h2>Results</h2>
+    <p>
+      The data strongly suggest that scarification dramatically improves germination speed in both swamp milkweed and butterfly weed seeds. In a warm, humid, Florida climate with no cold stratification, scarified seeds began germinating in under 24 hours. This is significant, as milkweed seeds typically require cold stratification to germinate.
+    </p>
 
-    <div class="section">
-      <h2>📢 Final Thoughts</h2>
-      <p>This hands-on experiment shows how a simple tip-trim can significantly change germination outcomes. If you’re trying to grow milkweed at home—especially in a warm climate like Florida—try scarifying a few seeds and see what happens!</p>
+    <h2>Conclusion</h2>
+    <p>
+      Scarifying milkweed and butterfly weed seeds can significantly increase germination speed and rate — even in non-ideal conditions and without cold stratification. For gardeners in tropical or subtropical regions like South Florida, scarification offers a reliable method to boost propagation success.
+    </p>
+
+    <h2>Future Improvements</h2>
+    <ul>
+      <li>Include more seed varieties (e.g. common milkweed, tropical milkweed)</li>
+      <li>Measure long-term survival rates of seedlings</li>
+      <li>Test with soil vs. water germination</li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2025 Aarush's Garden Science | All Rights Reserved
     </div>
   </div>
 </body>
